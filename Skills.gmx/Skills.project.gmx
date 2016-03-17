@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\dudes</sprite>
+    <sprite>sprites\spr_soldier</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_ufo</sprite>
     <sprite>sprites\spr_beam</sprite>
@@ -16,7 +17,11 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_dudes</object>
+    <objects name="dudes">
+      <object>objects\obj_soldier</object>
+      <object>objects\obj_dudes</object>
+      <object>objects\par_dudes</object>
+    </objects>
     <object>objects\obj_floor</object>
     <object>objects\obj_control</object>
     <object>objects\obj_ufo</object>
